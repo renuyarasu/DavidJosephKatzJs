@@ -1,7 +1,9 @@
 console.clear();
-// 8. Arrays
+// Objects
+let sum = 0
 
-const things = ['laptop', 'speaker', 10];
-let push = things.push(100)
-let splice = things.splice(1, 0, 'pen', 'paper')
-console.log(things);
+for (let i = 1; i <= 100; i++) {
+    sum += i;
+}
+
+console.log(sum)
