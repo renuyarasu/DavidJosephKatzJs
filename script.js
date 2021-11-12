@@ -1,9 +1,13 @@
 console.clear();
-// Objects
-let sum = 0
+// Functions
 
-for (let i = 1; i <= 100; i++) {
-    sum += i;
+// function expression 
+function calculateTip(price, percentage) {
+    // side effect
+    console.log('Calculate Tip');
+    return (percentage / 100) * price
 }
+calculateTip(100, 5); //5
 
-console.log(sum)
+// function declaration
+// anonymous function 
