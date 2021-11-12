@@ -7,7 +7,16 @@ function calculateTip(price, percentage) {
     console.log('Calculate Tip');
     return (percentage / 100) * price
 }
-calculateTip(100, 5); //5
+let calculateTipResult = calculateTip(100, 5);
+
+console.log(calculateTipResult); // 5
 
 // function declaration
+
+let divideByN = function (number, n) {
+    return number / n;
+}
+let divideByNResult = divideByN(20, 4)
+console.log(divideByNResult);// 5
+
 // anonymous function 
