@@ -1,17 +1,12 @@
 console.clear();
-// Functions
+// JavaScript Cookies
 
-let actualPin = '1115';
-let pin;
-let count = 0;
-
-do {
-    pin = prompt("Enter your pin...");
-    count++;
-
-} while (pin != actualPin && count < 3);
-if (pin == actualPin) {
-    console.log('Welcome User!');
-} else {
-    console.log('Account Locaked!');
+function writeCookie() {
+    if (document.myform.customer.value == '') {
+        alert('Enter Same Value');
+        return
+    }
+    let cookievalue = escape(document.myform.customer.value) + ';';
+    document.cookie = 'name' + cookievalue;
+    console.log('Setting Cookie: ' + 'Name = ' + cookievalue);
 }
