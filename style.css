@@ -33,7 +33,7 @@ body {
   margin: 0;
   /* text-align: center; */
   background-color: #1f1f1f;
-  color: aliceblue;
+  color: azure;
 }
 
 /**
@@ -361,40 +361,3 @@ template {
 [hidden] {
   display: none;
 }
-
-
-
-.box {
-  width: 100px;
-  height: 30px;
-  cursor: pointer;
-  background:#eee;
-  color: #1f1f1f;
-  font-weight: 700;
-  line-height: 30px;
-  margin-bottom: 5px;
-}
-
-.default{cursor: default;}
-.wait{cursor: wait;}
-.progress{cursor: progress;}
-.pointer{cursor: pointer;}
-.help{cursor: help;}
-.crosshair{cursor: crosshair;}
-.move{cursor: move;}
-.cell{cursor: cell;}
-.text{cursor: text;}
-.v_text{cursor: vertical-text;}
-.n_allowed{cursor: not-allowed;}
-.copy{cursor: copy;}
-.auto{cursor: auto;}
-.e-resize{cursor: e-resize;}
-.ew-resize{cursor: ew-resize;}
-.ne-resize{cursor: ne-resize;}
-.n-resize{cursor: n-resize;}
-.nw-resize{cursor: nw-resize;}
-.no-drop{cursor: no-drop;}
-.se-resize{cursor: se-resize;}
-.sw-resize{cursor: sw-resize;}
-.s-resize{cursor: s-resize;}
-.w-resize{cursor: w-resize;}
