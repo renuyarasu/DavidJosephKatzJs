@@ -16,10 +16,17 @@
     <link rel="stylesheet" href="">
   </head>
   <body>
-    <h1>JavaScript Cookies</h1>
+    <h1>JavaScript: Functions</h1>
+<!-- Is a set of statements perfrom specific task 
+Can be invoked whenever code execution is required 
+Provides reusability 
+Makes the code moduler 
+Can pass values through parameters 
+Can return value from a function using return keyword  -->
     <form action="" name="myform">
-      Enter Name: <input type="text" name="customer">
-      <input type="button" value="Set Cookies" onclick="writeCookie();">
+     <div><input type="text" name="t1" placeholder="Name"></div>
+     <div><input type="text" name="t2" placeholder="Age"></div>
+     <input type="button" value="SayHello!" onclick="sayHello(t1.value, t2.value);">
     </form>
     <script src="script.js"></script>
   </body>
