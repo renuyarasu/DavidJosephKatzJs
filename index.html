@@ -15,19 +15,15 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="">
   </head>
-  <body>
-    <h1>JavaScript: Functions</h1>
-<!-- Is a set of statements perfrom specific task 
-Can be invoked whenever code execution is required 
-Provides reusability 
-Makes the code moduler 
-Can pass values through parameters 
-Can return value from a function using return keyword  -->
-    <form action="" name="myform">
-     <div><input type="text" name="t1" placeholder="Name"></div>
-     <div><input type="text" name="t2" placeholder="Age"></div>
-     <input type="button" value="SayHello!" onclick="sayHello(t1.value, t2.value);">
-    </form>
+  <body onload="load()">
+    <h1>JavaScript: Events</h1>
+<!-- 
+• Runtime errors can be handled 
+• Also called exceptions 
+• Syntax or logical errors can not be handled in runtime 
+• Try, catch, finally and throw are keywords used for exception handling 
+-->
+    <img name="image" width="500" height="500" onmouseover="mouseOver()" onmouseout="mouseOut()">
     <script src="script.js"></script>
   </body>
 </html>
