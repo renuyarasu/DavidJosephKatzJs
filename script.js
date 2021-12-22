@@ -1,12 +1,10 @@
 console.clear();
-// JavaScript Cookies
+// JavaScript: While Loop
 
-function mouseOver() {
-    document.images['image'].src = "puppy_c.png"
+let num = parseInt(prompt('Enter the number...', 'Enter...'));
+let count = 0;
+while (num > 0) {
+    num = Math.trunc(num / 10);
+    count++;
 }
-function mouseOut() {
-    document.images['image'].src = "puppy_bw.png"
-}
-function load() {
-    document.images['image'].src = "puppy_bw.png"
-}
+document.write('Digits: ' + count);
