@@ -1,19 +1,20 @@
 console.clear();
-// JavaScript: Objects
+// JavaScript: If Else Statement
 
-let tutorials = {
-    topic: 'JS',
-    name: 'VedaGna',
-    duration: '1 Month'
+let marks_01 = parseInt(prompt('Enter marks 01', 'Enter...'))
+let marks_02 = parseInt(prompt('Enter marks 02', 'Enter...'))
+let marks_03 = parseInt(prompt('Enter marks 03', 'Enter...'))
+
+let total = marks_01 + marks_02 + marks_03;
+let percentage = total * 100 / 150;
+console.log(percentage);
+
+if (percentage >= 80) {
+    console.log('Grade A');
+} else if (percentage >= 60) {
+    console.log('Grade B');
+} else if (personalbar >= 40) {
+    console.log('Grade C');
+} else {
+    console.log('Grade D');
 }
-
-console.log('Topic: ' + tutorials.topic);
-console.log('Name: ' + tutorials.name);
-console.log('Duration: ' + tutorials.duration);
-
-let text = '';
-let x;
-for (x in tutorials) {
-    text += tutorials[x] + ', ';
-}
-console.log(text);
