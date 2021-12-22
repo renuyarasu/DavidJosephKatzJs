@@ -1,7 +1,7 @@
 console.clear();
-// JavaScript: Page Redirect
+// JavaScript:  Loop Control Statements [Break, Continue]
 
-/* function redirect() {
-    window.location = "https://www.udemy.com/"
-} */
-const redirect = () => window.location = "https://www.udemy.com/"
+
+for (let i = 0; i < 10; i++) {
+    document.write(i + '<br>')
+}
