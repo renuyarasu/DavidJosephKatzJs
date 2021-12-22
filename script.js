@@ -1,7 +1,24 @@
 console.clear();
-// JavaScript:   Logical Operators (&&, ||, !)
-let userId = prompt('Enter user Id', 'User Id')
-let pwd = prompt('Enter your password', 'Password')
+// JavaScript:  Switch Statement
 
-let message = !(userId == 'VedaGna' || pwd == '1115') ? 'Welcome' : 'Invalid User';
-alert(message)
+let vowels = prompt('Enter  a character', 'Enter...');
+switch (vowels) {
+    case 'a':
+        console.log('A is vowel!');
+        break;
+    case 'e':
+        console.log('E is vowel!');
+        break;
+    case 'i':
+        console.log('I is vowel!');
+        break;
+    case 'o':
+        console.log('O is vowel!');
+        break;
+    case 'u':
+        console.log('U is vowel!');
+        break;
+    default:
+        console.log('Consonant!');
+        break;
+}
