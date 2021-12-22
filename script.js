@@ -1,10 +1,6 @@
 console.clear();
-// JavaScript: While Loop
+// JavaScript: Page Redirect
 
-let num = parseInt(prompt('Enter the number...', 'Enter...'));
-let count = 0;
-while (num > 0) {
-    num = Math.trunc(num / 10);
-    count++;
+function redirect() {
+    window.location = "https://www.udemy.com/"
 }
-document.write('Digits: ' + count);
